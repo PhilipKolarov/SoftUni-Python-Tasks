@@ -9,3 +9,5 @@ for el in input_string:
 
 for el, qty in sorted(symbols.items()):
     print(f"{el}: {qty} time/s")
+    
+# test run with (philip kolarov)
