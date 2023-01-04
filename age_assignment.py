@@ -10,4 +10,5 @@ def age_assignment(*args, **kwargs):
     return '\n'.join(sorted_result)
 
 
-print(age_assignment("Amy", "Bill", "Willy", W=36, A=22, B=61))
+my_assignment = age_assignment("Amy", "Bill", "Willy", W=36, A=22, B=61)
+print(my_assignment)
