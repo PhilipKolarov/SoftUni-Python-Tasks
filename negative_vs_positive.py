@@ -10,8 +10,8 @@ def positive_and_negative_sums(*args):
 
     return positive_sum, negative_sum
 
-
-nums = [int(x) for x in input().split()]
+input_nums = input()
+nums = [int(x) for x in input_nums.split()]
 positive_sum, negative_sum = positive_and_negative_sums(*nums)
 
 print(negative_sum)
