@@ -13,6 +13,9 @@ class Account:
             self.balance -= amount
             return self.balance
         return "Amount exceeded balance"
+    
+    def change_name(self, new_name):
+        self.name = new_name
 
     def info(self):
         return f"User {self.name} with account {self.id} has {self.balance} balance"
