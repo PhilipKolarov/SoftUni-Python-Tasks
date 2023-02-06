@@ -22,3 +22,5 @@ if not balanced or opening_brackets != []:
     print("NO")
 else:
     print("YES")
+    
+#This will only work for an input that is comprised only of brackets!!!
