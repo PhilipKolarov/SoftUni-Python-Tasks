@@ -1,3 +1,5 @@
+# This will only produce a number bar based on a number entered (it will not load automatically)!
+
 def loading_bar(num):
 
     if num == 100:
